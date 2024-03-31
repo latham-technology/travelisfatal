@@ -1,15 +1,24 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+    devtools: { enabled: true },
 
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts',
-  ],
+    build: {
+        transpile: ['vue-preview-imgs'],
+    },
 
-  googleFonts: {
-    families: {
-      Forum: true
-    }
-  }
+    modules: [
+        '@nuxtjs/tailwindcss',
+        '@nuxtjs/google-fonts',
+        '@nuxtjs/cloudinary',
+    ],
+
+    cloudinary: {
+        cloudName: 'mattlatham',
+    },
+
+    googleFonts: {
+        families: {
+            Forum: true,
+        },
+    },
 })
