@@ -1,0 +1,11 @@
+{
+    "extends": ["@notafunction/eslint-config"],
+    "rules": {
+        "vuejs-accessibility/label-has-for": [
+            "error",
+            {
+                "required": ["id"]
+            }
+        ]
+    }
+}
