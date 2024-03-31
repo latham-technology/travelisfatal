@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     },
 
     modules: [
+        '@nuxtjs/plausible',
         '@nuxtjs/tailwindcss',
         '@nuxtjs/google-fonts',
         '@nuxtjs/cloudinary',

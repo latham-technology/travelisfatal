@@ -20,6 +20,7 @@
   "devDependencies": {
     "@nuxtjs/cloudinary": "^2.7.2",
     "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/plausible": "^0.2.4",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "sass": "^1.72.0",
     "vue-preview-imgs": "^2.0.1"
