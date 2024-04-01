@@ -32,8 +32,9 @@ const getResources = async () => {
 
     const transformResource = (resource) => ({
         href: `https://res.cloudinary.com/${config.public.cloudinary.cloudName}/image/upload/w_auto/v1/${resource.public_id}`,
-        thumbnail: `https://res.cloudinary.com/${config.public.cloudinary.cloudName}/image/upload/c_thumb,g_auto,w_400/v1/${resource.public_id}`,
-        alt: '',
+        thumbnail: `https://res.cloudinary.com/${config.public.cloudinary.cloudName}/image/upload/c_thumb,g_auto,w_400,h_400/v1/${resource.public_id}`,
+        alt: resource.context?.custom?.alt,
+        title: resource.context?.custom?.caption,
         width: resource.width,
         height: resource.height,
     })
@@ -46,8 +47,11 @@ const galleryList = await getResources()
 
 <style lang="scss" scoped>
 .vpis-gallery {
-    @apply grid grid-flow-dense gap-1;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    @apply grid grid-flow-dense gap-1 grid-cols-2;
+
+    @screen md {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
 }
 
 .vpis-item {

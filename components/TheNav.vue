@@ -1,13 +1,11 @@
 <template>
-    <div class="mt-8 text-gray-900 font-[Poppins] font-light text-3xl">
-        <h2 class="mx-auto mt-8 text-center font-sans">Photography by Francis Latham</h2>
+    <div class="flex items-baseline gap-2 py-4 md:py-8">
+        <NuxtLink to="/" class="text-2xl mr-2">🌐</NuxtLink>
 
-        <div
-            class="mt-8 flex flex-wrap flex-col md:flex-row justify-center items-center gap-8 text-2xl underline"
-        >
-            <NuxtLink to="/photos/china">China</NuxtLink>
-            <NuxtLink to="/photos/jordan-syria">Jordan & Syria</NuxtLink>
-            <NuxtLink to="/photos/costarica">Costa Rica</NuxtLink>
+        <div class="flex items-center flex-wrap gap-4">
+            <NuxtLink class="underline" to="/photos/china">China</NuxtLink>
+            <NuxtLink class="underline" to="/photos/jordan-syria">Jordan & Syria</NuxtLink>
+            <NuxtLink class="underline" to="/photos/costarica">Costa Rica</NuxtLink>
         </div>
     </div>
 </template>
@@ -17,5 +15,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+.router-link-active {
+    @apply font-bold;
+}
 </style>

@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col items-center justify-center h-full w-full">
-        <TheQuote class="w-auto max-w-screen-md m-5 lg:m-10 font-[Forum] text-stone-800" />
-        <TheNav class="mx-4" />
+        <TheQuote class="w-auto max-w-screen-md lg:m-10 font-[Forum] text-stone-800" />
+        <TheHomeNav class="m-4 my-8" />
     </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="text-3xl lg:text-5xl font-bold flex flex-col p-8">
+    <div class="text-3xl lg:text-5xl font-bold flex flex-col p-8 px-4 md:px-8">
         <h1 class="">
             “Travel is fatal to prejudice, bigotry, and narrow-mindedness, and
             many of our people need it sorely on these accounts.
