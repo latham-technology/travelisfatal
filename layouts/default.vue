@@ -6,9 +6,8 @@
 
 <script setup></script>
 
-<style lang="scss" scoped>
-html,
-body {
-    @apply bg-slate-300;
+<style lang="scss">
+#__nuxt {
+    @apply bg-gray-200;
 }
 </style>

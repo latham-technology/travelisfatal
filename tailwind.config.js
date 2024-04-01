@@ -1,9 +1,24 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [],
+// import { defaultTheme } from 'tailwindcss/defaultTheme'
+
+module.exports = {
   theme: {
-    extend: {},
-  },
-  plugins: [],
+    fontFamily: {
+      sans: ['Poppins']
+    }
+  }
 }
+
+// export default {
+//   content: [],
+//   theme: {
+//     fontFamily: {
+//       sans: ['Poppings'],
+//       serif: ['Forum']
+//     },
+//     extend: {
+//     },
+//   },
+//   plugins: [],
+// }
 
