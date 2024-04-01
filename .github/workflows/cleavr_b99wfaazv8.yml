@@ -13,7 +13,7 @@ on:
     branches:
       # This is the branch that gets deployed when a push is made to this repository.
       # If you change the default branch in Cleavr under the Webapp's settings, make sure to change it here as well.
-      - master
+      - main
 jobs:
   init:
     runs-on: ubuntu-latest
