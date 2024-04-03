@@ -3,6 +3,8 @@
         <TheNav />
         
         <slot />
+
+        <GoToTop />
     </div>
 </template>
 
