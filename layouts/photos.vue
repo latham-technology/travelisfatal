@@ -8,7 +8,9 @@
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+useSeo()
+</script>
 
 <style lang="scss">
 </style>
