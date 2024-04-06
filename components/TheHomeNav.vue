@@ -1,6 +1,8 @@
 <template>
     <div class="text-gray-900 font-[Poppins] font-light text-xl md:text-3xl">
-        <h2 class="mx-auto mt-8 text-center font-sans">Photography by Francis Latham</h2>
+        <h2 class="mx-auto mt-8 text-center font-sans">
+            Photography by Frances Latham
+        </h2>
 
         <div
             class="mt-8 flex flex-wrap flex-col md:flex-row justify-center items-center gap-8 text-xl md:text-2xl underline"
@@ -12,10 +14,6 @@
     </div>
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
