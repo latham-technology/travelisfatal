@@ -31,7 +31,7 @@ const getResources = async () => {
     if (!data) sendRedirect('/')
 
     const transformResource = (resource) => ({
-        href: `https://res.cloudinary.com/${config.public.cloudinary.cloudName}/image/upload/w_auto/v1/${resource.public_id}`,
+        href: `https://res.cloudinary.com/${config.public.cloudinary.cloudName}/image/upload/v1/${resource.public_id}`,
         thumbnail: `https://res.cloudinary.com/${config.public.cloudinary.cloudName}/image/upload/c_thumb,g_auto,w_400,h_400/v1/${resource.public_id}`,
         alt: resource.context?.custom?.alt,
         title: resource.context?.custom?.caption,
