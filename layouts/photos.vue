@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-full bg-gray-200 px-4">
+    <div class="min-h-full bg-gray-200 px-4 pb-4">
         <TheNav />
         
         <slot />
