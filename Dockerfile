@@ -12,4 +12,4 @@ ENV NUXT_PORT=3000
 
 EXPOSE 3000
 
-CMD ["node", "start"]
+CMD ["node", ".output/server/index.mjs"]
