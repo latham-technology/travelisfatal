@@ -1,5 +1,9 @@
 FROM node:18-alpine
 
+ARG CLOUDINARY_CLOUD_NAME
+
+ENV CLOUDINARY_CLOUD_NAME=${CLOUDINARY_CLOUD_NAME}
+
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
