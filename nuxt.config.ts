@@ -11,16 +11,17 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss',
         '@nuxtjs/google-fonts',
         '@nuxtjs/cloudinary',
+        '@nuxt/image',
     ],
 
     cloudinary: {
-        cloudName: 'mattlatham',
+        cloudName: process.env.CLOUDINARY_CLOUD_NAME,
     },
 
     googleFonts: {
         families: {
             Forum: true,
-            Poppins: [300]
+            Poppins: [300],
         },
     },
 })

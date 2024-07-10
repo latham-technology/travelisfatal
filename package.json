@@ -18,10 +18,12 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "@nuxt/image": "^1.5.0",
     "@nuxtjs/cloudinary": "^2.7.2",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/plausible": "^0.2.4",
     "@nuxtjs/tailwindcss": "^6.11.4",
+    "ipx": "^3.0.1",
     "sass": "^1.72.0",
     "vue-preview-imgs": "^2.0.1"
   }
